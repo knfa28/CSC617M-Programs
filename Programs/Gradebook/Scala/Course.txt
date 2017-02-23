@@ -1,0 +1,5 @@
+2001, PROGLAN, Programming Languages
+2002, ADVANDB, Advanced Databases
+2003, MOBAPDE, Mobile Application Development
+2004, ADVANOS, Advanced Operating Systems
+2005, JAPALA1, Japanese Language 1

@@ -1,0 +1,12 @@
+c:\users\seaver\documents\visual studio 2015\Projects\Gradebook\Gradebook\bin\Debug\Gradebook.exe.config
+C:\Users\Seaver\Documents\Visual Studio 2015\Projects\Gradebook\Gradebook\bin\Debug\Gradebook.exe
+C:\Users\Seaver\Documents\Visual Studio 2015\Projects\Gradebook\Gradebook\bin\Debug\Gradebook.pdb
+C:\Users\Seaver\Documents\Visual Studio 2015\Projects\Gradebook\Gradebook\obj\Debug\Gradebook.csprojResolveAssemblyReference.cache
+C:\Users\Seaver\Documents\Visual Studio 2015\Projects\Gradebook\Gradebook\obj\Debug\Gradebook.exe
+C:\Users\Seaver\Documents\Visual Studio 2015\Projects\Gradebook\Gradebook\obj\Debug\Gradebook.pdb
+C:\Users\kurta\Desktop\Gradebook\C#\bin\Debug\Gradebook.exe.config
+C:\Users\kurta\Desktop\Gradebook\C#\obj\Debug\Gradebook.exe
+C:\Users\kurta\Desktop\Gradebook\C#\obj\Debug\Gradebook.pdb
+C:\Users\kurta\Desktop\Gradebook\C#\bin\Debug\Gradebook.exe
+C:\Users\kurta\Desktop\Gradebook\C#\bin\Debug\Gradebook.pdb
+C:\Users\kurta\Desktop\Gradebook\C#\obj\Debug\Gradebook.csprojResolveAssemblyReference.cache

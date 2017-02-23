@@ -1,0 +1,22 @@
+Students: [id, name, gender]
+	[√] Add -> auto increment student id
+	[√] Edit -> cannot edit student id
+	[√] Delete -> must delete records from Grades with the same student id
+
+Courses: [id, code, name]
+	[√] Add -> auto increment student id
+	[√] Edit -> cannot edit course id
+	[√] Delete -> must delete records from Grades with the same course id
+
+Grades: [student id, course id, exercises, exams, finals, final grade]
+	*Note: select a Student first -> show all Grades of the selected Student
+	[√] Add -> show list of Courses
+	[√] Edit -> show list of Courses enrolled by the Student (from Grades)
+	[√] Delete -> show list of Courses enrolled by the Student (from Grades)
+
+[√] Read to File
+[√] Write to File
+
+[√] GPA per Student -> get the final grades of the Courses a Student has enrolled in divided by the number of enrolled courses
+[√] Average Grades of Students per Course -> get the final grades of the Students enrolled in a Course divided by the number of enrolled Students
+[√] Top 5 Students per Course -> select a Course first before viewing the top 5

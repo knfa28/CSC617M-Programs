@@ -1,0 +1,39 @@
+CREATE currentMap AS Map(15,7) 
+CREATE mainChar AS Player
+CREATE enemyChar AS NonPlayer
+CREATE potion AS Item
+CREATE stone AS Item	
+
+SET currentMap.coord(0,0) AS checkPoint
+SET "Shiny_Stone" AS stone.name
+SET "Regular_Potion" AS potion.name 
+SET PlayerCharacter.Heal(5) AS potion.function
+mainChar Receive(potion)
+
+SET Key("w") AS Controls(moveForward)
+
+SPAWN mainChar AT checkPoint 
+			
+CREATE counter AS Int(0)
+
+LOOP (counter TO 7)
+	SPAWN enemy AT currentMap.point(5,counter)
+	Iterate(counter, 1)
+END LOOP
+
+
+IF (mainChar COLLIDES enemy) 
+	IF ((mainChar FIGHTS enemy) = "false")
+		CREATE gameOver AS GameOverScreen("You_Dieded", "Stay_Determined!", "Give_Up")
+		SET gameOver AS currentMap.popup
+	ELSE
+		mainChar Receives(Exp(65))
+		mainChar Receives(Gold(100))
+		mainChar Receives(potion)
+		mainChar Receives(stone)
+	END IF
+END IF
+
+mainChar USES potion
+
+

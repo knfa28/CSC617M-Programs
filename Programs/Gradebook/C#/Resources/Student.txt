@@ -1,0 +1,6 @@
+0,John Lock,Male
+1,Jonathan Sanchez,Male
+2,Chloe Tabanda,Female
+3,Steffi Nucum,Female
+4,Imre Jastia,Female
+5,Amiel Velencina,Male

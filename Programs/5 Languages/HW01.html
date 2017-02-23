@@ -1,0 +1,63 @@
+<html>
+	<script type="text/javascript">
+		function HelloWorld(){
+			console.log("Hello, World!");
+			alert("Hello World");
+		}
+
+		function accept(){
+			console.log(document.getElementById("printTextBox").value);
+			alert(document.getElementById("printTextBox").value);
+			document.getElementById("printTextBox").value ="";
+		}
+
+		function isPrime(){
+			var subject;
+			var isPrime =true;
+			subject = document.getElementById("primeCheckerBox").value;
+			if(subject==0)
+			isPrime =false;
+			for (i=2; i<subject; i++) {
+				if (subject % i == 0 && i != subject) 
+				isPrime =false;
+			}
+			if(isPrime)
+			{
+				console.log("It's prime!");
+				alert("It's prime!");
+			}
+			else
+			{
+				console.log("It's not prime!");
+				alert("It's not prime!");
+			}
+
+			console.log(subject);
+			document.getElementById("printTextBox").value ="";
+		}
+
+		function equate(){
+			var x;
+			var result;
+			x = document.getElementById("equateBox").value;
+			result = (x * x)  + ((Math.log10(x) - Math.sin(x))/ Math.sqrt(x));
+			console.log(result);
+			alert(result);
+		}
+	</script>
+
+	<body>
+		<input  id="printTextBox"></input>
+		<button onclick="accept()" >Print</button>
+		<br>
+		<input  id="primeCheckerBox"></input>
+		<button onclick="isPrime()" >Check if Prime</button>
+		<br>
+		<input  id="equateBox"></input>
+		<button onclick="equate()" >Equate</button>
+
+		<script>
+			HelloWorld();
+		</script>
+	</body>
+</html>
